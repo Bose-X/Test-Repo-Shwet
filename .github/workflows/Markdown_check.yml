@@ -21,7 +21,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: My Markdown Linter
-      uses: ruzickap/action-my-markdown-linter@v0.0.1
+
+    - name: markdownlint-cli
+      uses: nosborn/github-action-markdown-cli@v1.1.1
+
 
 
